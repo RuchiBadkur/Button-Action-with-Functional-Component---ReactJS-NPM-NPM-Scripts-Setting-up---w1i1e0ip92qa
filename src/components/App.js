@@ -12,7 +12,7 @@ function App() {
       <button id="click" onClick={showhiddenPara}>
         Show
       </button>
-      {show === true && <p id="para">sdfrfiheorie</p>}
+      {show === true && (<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)}
     </div>
   );
 }
